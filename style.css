@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:white;
+}
+
+.background{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 300px;
+    filter: blur(80px);
+    border-radius: 0px 60px 0px 60px;
+}
+
+.logo{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 200px;
+    background-color: #8B8000;
+    border-radius: 0px 60px 0px 60px;
+}
+
+.logo i#truck{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: icon;
+    color: rgb(255, 255, 255);
+}
+.slogan{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    padding-top: 350px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: xx-large;
+    color: #322f29; 
+    align-content: center;
+    align-self: center;
+}
+
+.text{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    padding-top: 430px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: large;
+    color: #322f29;
+}
